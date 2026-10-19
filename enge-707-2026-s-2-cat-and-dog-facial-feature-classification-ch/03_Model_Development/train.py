@@ -1,4 +1,4 @@
-"""ENGE707 Kaggle: baseline 8-class cat/dog facial-feature classifier.
+﻿"""ENGE707 Kaggle: baseline 8-class cat/dog facial-feature classifier.
 
 Place this file beside train_labels.csv and the extracted train/ directory.
 The image archive has entries like train/train/00001.jpg, so after extraction
@@ -22,7 +22,7 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision import models, transforms
 
 CLASSES = ["CatEye", "CatFace", "CatMouth", "CatNose", "DogEye", "DogFace", "DogMouth", "DogNose"]
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
 
 class FacialFeaturesDataset(Dataset):
@@ -173,3 +173,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
