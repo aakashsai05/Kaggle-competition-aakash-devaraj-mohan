@@ -127,7 +127,7 @@ def run():
     )
     criterion = nn.CrossEntropyLoss()
     best_f1 = -1.0
-    output_path = ROOT / "best_model.pth"
+    output_path = ROOT / "03_Model_Development" / "checkpoints" / "best_model.pth"
 
     for epoch in range(1, args.epochs + 1):
         model.train()
@@ -164,7 +164,7 @@ def run():
             torch.save({"state_dict": model.state_dict(), "classes": CLASSES}, output_path)
             print(f"  Saved best checkpoint: {output_path.name}")
 
-    (ROOT / "class_mapping.json").write_text(
+    (ROOT / "03_Model_Development" / "class_mapping.json").write_text(
         json.dumps({name: idx for idx, name in enumerate(CLASSES)}, indent=2),
         encoding="utf-8",
     )
@@ -173,4 +173,5 @@ def run():
 
 if __name__ == "__main__":
     run()
+
 
