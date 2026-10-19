@@ -1,0 +1,9 @@
+class,train,validation
+CatEye,3477,870
+CatFace,1735,434
+CatMouth,1761,440
+CatNose,1713,429
+DogEye,2932,733
+DogFace,1417,354
+DogMouth,1431,358
+DogNose,1470,367
