@@ -1,0 +1,24 @@
+﻿ENGE707 Kaggle Submission Results
+
+Model: Corrected ResNet18
+Checkpoint: best_model_clean.pth
+Best Epoch: 4
+
+Local Validation Accuracy: 0.9827
+Local Validation Macro F1: 0.9822
+
+Kaggle Public Leaderboard Score: 0.9611
+Leaderboard Rank at Screenshot: 20
+Submission Number: 1
+Test Predictions: 29443
+
+Submission File: 05_Model_Evaluation/submission_clean.csv
+
+Notes:
+The corrected model was trained using a duplicate-safe
+train/validation split.
+
+The saved Epoch 4 checkpoint was used for Kaggle inference.
+
+The public leaderboard score was obtained from Kaggle.
+The leaderboard rank may change as more participants submit.

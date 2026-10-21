@@ -1,0 +1,24 @@
+Corrected ResNet18 - Model Evaluation
+--------------------------------------
+Validation images: 3984
+Validation accuracy: 0.9827
+Validation macro F1: 0.9822
+Checkpoint: best_model_clean.pth
+Selected using best validation macro F1
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      CatEye       0.99      0.98      0.99       869
+     CatFace       1.00      0.99      1.00       434
+    CatMouth       0.99      0.96      0.97       440
+     CatNose       0.94      0.99      0.96       429
+      DogEye       0.97      0.99      0.98       733
+     DogFace       1.00      1.00      1.00       354
+    DogMouth       0.99      0.98      0.99       358
+     DogNose       0.98      0.96      0.97       367
+
+    accuracy                           0.98      3984
+   macro avg       0.98      0.98      0.98      3984
+weighted avg       0.98      0.98      0.98      3984
+
