@@ -1,0 +1,9 @@
+{
+  "checkpoint": "best_model_clean.pth",
+  "split": "clean_train_validation_split.csv",
+  "validation_count": 3984,
+  "validation_cross_entropy_loss": 0.04796753994090554,
+  "validation_accuracy": 0.9826807228915663,
+  "validation_macro_f1": 0.982229779599727,
+  "note": "Loss is calculated for the selected Epoch 4 checkpoint only; historical validation losses were not saved."
+}
