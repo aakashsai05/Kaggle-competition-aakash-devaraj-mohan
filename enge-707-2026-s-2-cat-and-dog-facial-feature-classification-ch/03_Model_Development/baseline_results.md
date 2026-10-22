@@ -18,9 +18,12 @@ Epochs: 5
 Best model: Epoch 5
 Best validation accuracy: 98.67%
 Best macro F1: 98.71%
-
 Notes:
-- First baseline model using transfer learning.
-- Training used 19921 available labelled images.
-- Additional evaluation and data leakage checks are required.
-- Kaggle leaderboard score has not yet been measured.
+- This was the initial ResNet18 baseline using transfer learning.
+- The original validation split contained known exact duplicate overlap.
+- A corrected duplicate-safe split was subsequently created.
+- The corrected model achieved 98.27% validation accuracy and 98.22% macro F1.
+- Horizontal-flip TTA improved the corrected model's validation accuracy to 98.59%.
+- The best recorded Kaggle public leaderboard score was 0.9629.
+- The original and corrected validation results are not directly comparable because they used different validation splits.
+
