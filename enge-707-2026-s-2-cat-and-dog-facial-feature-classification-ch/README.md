@@ -25,7 +25,6 @@ The project uses a pretrained ResNet18 model, duplicate-safe training and valida
 | 04_Training_Strategy | Training histories, learning curves and analysis |
 | 05_Model_Evaluation | Evaluation scripts, confusion matrices and Kaggle predictions |
 | 06_Results_Analysis | Model comparisons, error analysis and TTA experiments |
-| 07_Final_Report | Submission checklist and report materials |
 
 Additional project documentation is available in REPRODUCIBILITY_NOTES.md.
 
