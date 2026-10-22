@@ -1,0 +1,3 @@
+method,accuracy,macro_f1
+Horizontal Flip TTA,0.9859437751004017,0.9854633407234952
+Rotation TTA (+/-5 degrees),0.9854417670682731,0.9854231470420742
