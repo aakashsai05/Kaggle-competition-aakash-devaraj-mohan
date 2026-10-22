@@ -149,6 +149,7 @@ def run():
     criterion = nn.CrossEntropyLoss()
     best_f1 = -1.0
     output_path = ROOT / "03_Model_Development" / "checkpoints" / "best_model_clean.pth"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     for epoch in range(1, args.epochs + 1):
         model.train()
