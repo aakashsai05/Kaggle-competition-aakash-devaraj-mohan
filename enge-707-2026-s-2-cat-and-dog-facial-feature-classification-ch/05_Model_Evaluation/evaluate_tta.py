@@ -1,5 +1,4 @@
-﻿"""Compare standard ResNet18 predictions against horizontal-flip TTA."""
-
+﻿
 import sys
 from pathlib import Path
 

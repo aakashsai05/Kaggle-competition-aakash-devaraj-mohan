@@ -1,9 +1,3 @@
-"""Re-evaluate the selected duplicate-safe ResNet18 checkpoint with loss.
-
-Outputs one selected-checkpoint validation loss, NOT a per-epoch loss curve.
-Run from the competition project root:
-    python 05_Model_Evaluation/compute_validation_loss.py
-"""
 from __future__ import annotations
 
 import json

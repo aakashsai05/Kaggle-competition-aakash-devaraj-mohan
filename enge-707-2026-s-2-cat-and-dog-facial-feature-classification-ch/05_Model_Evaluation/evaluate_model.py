@@ -1,6 +1,4 @@
-﻿"""Task 5: Evaluate the best duplicate-safe ResNet18 checkpoint."""
-
-import sys
+﻿import sys
 from pathlib import Path
 
 import matplotlib
